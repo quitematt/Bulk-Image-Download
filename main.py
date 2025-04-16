@@ -13,7 +13,7 @@ def setup_logging(log_file):
         ]
     )
 
-def download_images(url_file, output_folder="downloaded_images", log_file="log.txt"):
+def download_images(url_file, output_folder="downloaded_images", log_file="bulk-image-download.log"):
     
     setup_logging(log_file)
     
